@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name      PWA Everything Reloaded
+// @name      PWA Everything Reloaded 2
 // @author    Evan Reichard
 // @version   0.0.1
 // @match     *://*/*
@@ -36,6 +36,9 @@ safeAreaStyle.innerHTML = `
     padding-left: env(safe-area-inset-left);
     padding-right: env(safe-area-inset-right);
     background-color: #ffffff; /* Set the background color to white */
+  }
+  :root {
+    background-color: #ffffff; /* Set the root background color to white */
   }
 `;
 document.head.prepend(safeAreaStyle);

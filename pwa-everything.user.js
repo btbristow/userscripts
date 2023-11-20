@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name      PWA Everything
+// @name      PWA Everything Reloaded
 // @author    Evan Reichard
 // @version   0.0.1
 // @match     *://*/*
